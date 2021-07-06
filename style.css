@@ -1,81 +1,94 @@
-header{
-    background-image: linear-gradient(blue,aqua);
+header {
+  background-image: linear-gradient(blue, aqua);
 }
-body{
-    font-family: 'Encode Sans SC', sans-serif;
-    margin: 0%;
+
+body {
+  font-family: "Encode Sans SC", sans-serif;
+  margin: 0%;
 }
-span{
-    color:rgb(61, 64, 235);
+span {
+  color: rgb(61, 64, 235);
 }
-section{
-    display:flex;
-    margin-bottom: 100px;
+section {
+  display: flex;
+  margin-bottom: 100px;
 }
-.first-section{
-    width: 50%;
-    padding-left: 5%;
+.first-section {
+  width: 50%;
+  padding-left: 5%;
 }
-.banner{
-    background-image: url(/images/shapes/Frame\ 57.jpg);
-    background-repeat: no-repeat;
+#left-side {
+  padding-top: 10%;
 }
-.second-section{
-    width: 50%;
-    padding-left: 5%;
-    /* This section can not stop repetation
+.banner {
+  background-image: url(/images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.second-section {
+  width: 50%;
+  padding-left: 5%;
+  /* This section can not stop repetation
     background-image: url(/images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;*/
-    
 }
-.second-section img{
-    width: 50%;
+.second-section img {
+  width: 50%;
+}
+#right-side {
+  padding-top: 10%;
 }
 
-.third-section
-{
-    text-align: center;
-    
-
-    /*display:flex;
+.third-section {
+  text-align: center;
+  /*display:flex;
     width: 33.33%;
     /* this code not working
     padding: 10px,100px;*/
 }
-.third-section h1,h2{
-    color:blue;
+.third-section h1,h2 {
+  color: blue;
 }
-.my-recipes{
-    text-align: center;
-    padding-left:20%;
-    padding-right: 20%;
+.my-recipes {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
-.recipes{
-    width: 33.33%;
-    margin: 5% 1%;
-    padding:1% 1%;
-    text-align: left;
-    box-shadow:10px 10px 40px rgb(83, 196, 231);
-    border-radius: 5%;
-
+.recipes {
+  width: 33.33%;
+  margin: 5% 1%;
+  padding: 1% 1%;
+  text-align: left;
+  box-shadow: 10px 10px 40px rgb(83, 196, 231);
+  border-radius: 5%;
 }
-.recipes img{
-    width: 100%;
-    border-radius: 5%;
-
+.recipes img {
+  width: 100%;
+  border-radius: 5%;
 }
-.button{
-    text-decoration: none;
-    color:white;
-    background-image:linear-gradient(aqua, blue) ;
-    font-weight: 400;
-    padding: 10px 40px;
-    border-radius: 5px;
+.fourth-section {
+  display: flex;
+  margin: 10% 10%;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  box-shadow: 10px 10px 40px rgb(83, 196, 231);
+  border-radius: 3%;
 }
-footer{
-    color:cornsilk;
-    background-image:linear-gradient(aqua, blue);
-    text-align: center;
+.follower {
+  width: 33.33%;
+  padding-left: 10%;
+  text-align: left;
 }
 
-
+.button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(aqua, blue);
+  font-weight: 400;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+footer {
+  color: cornsilk;
+  background-image: linear-gradient(aqua, blue);
+  text-align: center;
+}
